@@ -1,0 +1,90 @@
+<div class="nav">
+<ul class="slimmenu">
+    <li {% if page.title == "Home" %}class="active"{% endif %}><a href="{{"/" | prepend: site.baseurl }}">HOME</a></li>
+
+    <li {% if page.title == "About Us" %}class="active"{% endif %}>
+        <a href="{{"/aboutUs/" | prepend: site.baseurl }}">ABOUT US</a>
+        <ul >
+          <li class="subm"{% if page.title == "Our Staff" %}class="active"{% endif %}><a href="{{"/ourStaff/" | prepend: site.baseurl }}">OUR STAFF</a></li>
+          <li class="subm"{% if page.title == "Our Eqipment" %}class="active"{% endif %}><a href="{{"/ourEquipment/" | prepend: site.baseurl }}">OUR EQUIPMENT</a></li>
+          <li class="subm"{% if page.title == "Policies &amp; Accreditations" %}class="active"{% endif %}><a href="{{"/p-a/" | prepend: site.baseurl }}">POLICIES &amp; ACCREDITATIONS</a></li>
+          <li class="subm"{% if page.title == "Give us your Feedback" %}class="active"{% endif %}><a href="{{"/feedback/" | prepend: site.baseurl }}">GIVE US YOUR FEEDBACK</a></li>
+        </ul>
+      </li>
+
+      <li {% if page.title == "Our Expertise" %}class="active"{% endif %}>
+            <a href="{{"/ourExpertise/" | prepend: site.baseurl }}">OUR EXPERTISE</a>
+            <ul >
+
+              <li class="subm"{% if page.title == "Comercial Landscaping" %}class="active"{% endif %}>
+                <a href="{{"/commercialLandscaping/" | prepend: site.baseurl }}">COMMERCIAL LANDSCAPING</a>
+                <ul>
+                  <li class="subm"{% if page.title == "Parks &amp; Gardens" %}class="active"{% endif %}><a href="{{"/parkGardens/" | prepend: site.baseurl }}">PARKS &amp; GARDENS</a></li>
+                  <li class="subm"{% if page.title == "Sports Fields" %}class="active"{% endif %}><a href="{{"/sportFields/" | prepend: site.baseurl }}">SPORTS FIELDS</a></li>
+                  <li class="subm"{% if page.title == "Establishment" %}class="active"{% endif %}><a href="{{"/establishment/" | prepend: site.baseurl }}">ESTABLISHMENT</a></li>
+                  <li class="subm"{% if page.title == "Progancis" %}class="active"{% endif %}><a href="{{"/plantingIrrigation/" | prepend: site.baseurl }}">PLANTING &amp; IRRIGATION</a></li>
+                  <li class="subm"{% if page.title == "Turfing" %}class="active"{% endif %}><a href="{{"/turfing/" | prepend: site.baseurl }}">TURFING</a></li>
+                  <li class="subm"{% if page.title == "Minor Earthworks" %}class="active"{% endif %}><a href="{{"/minorEarthworks/" | prepend: site.baseurl }}">MINOR EARTHWORKS</a></li>
+                  <li class="subm"{% if page.title == "Hydromulching" %}class="active"{% endif %}><a href="{{"/hydromulching/" | prepend: site.baseurl }}">HYDROMULCHING</a></li>
+                </ul>
+              </li>
+
+              <li class="subm"{% if page.title == "Mine Site Rehabilitation" %}class="active"{% endif %}><a href="{{"/mineSiteR/" | prepend: site.baseurl }}">MINE SITE REHABILITAITON</a>
+                <ul>
+                    <li class="subm"{% if page.title == "Ground Preperation" %}class="active"{% endif %}><a href="{{"/groundPrep/" | prepend: site.baseurl }}">GROUND PREPERATION</a></li>
+                </ul>
+              </li>
+
+              <li class="subm"{% if page.title == "Road Networks" %}class="active"{% endif %}><a href="{{"/roadNetworks/" | prepend: site.baseurl }}">ROAD NETWORKS</a>
+                <ul>
+                    <li class="subm"{% if page.title == "Ground Preperation" %}class="active"{% endif %}><a href="{{"/groundPrep/" | prepend: site.baseurl }}">GROUND PREPERATION</a></li>
+                </ul>
+              </li>
+              <li class="subm"{% if page.title == "Research &amp; Inovation" %}class="active"{% endif %}><a href="{{"/researchInovation/" | prepend: site.baseurl }}">RESEARCH &amp; INNOVATION</a></li>
+            </ul>
+      </li>
+
+      <li {% if page.title == "Revegetation" %}class="active"{% endif %}>
+              <a href="{{"/revegetation/" | prepend: site.baseurl }}">REVEGETATION</a>
+              <ul >
+                <li class="subm"{% if page.title == "Progancis" %}class="active"{% endif %}><a href="{{"/proganics/" | prepend: site.baseurl }}">PROGANICS</a></li>
+                <li class="subm"{% if page.title == "Hydromulching" %}class="active"{% endif %}><a href="{{"/hydromulching/" | prepend: site.baseurl }}">HYDROMULCHING</a></li>
+                <li class="subm"{% if page.title == "Haymulching" %}class="active"{% endif %}><a href="{{"/haymulching/" | prepend: site.baseurl }}">HAYMULCHING</a></li>
+                <li class="subm"{% if page.title == "Hydro Compost Organics Blanket" %}class="active"{% endif %}><a href="{{"/HCOBlanket/" | prepend: site.baseurl }}">HYDRO COMPOST ORGANICS BLANKET</a></li>
+                <li class="subm"{% if page.title == "Hotpods" %}class="active"{% endif %}><a href="{{"/hotpods/" | prepend: site.baseurl }}">HOT PODS &reg; </a></li>
+                <li class="subm"{% if page.title == "Direct Seeding" %}class="active"{% endif %}><a href="{{"/directSeeding/" | prepend: site.baseurl }}">DIRECT SEEDING</a></li>
+              </ul>
+      </li>
+  
+      <li {% if page.title == "Erosion Control" %}class="active"{% endif %}>
+              <a href="{{"/erosionControl/" | prepend: site.baseurl }}">EROSION CONTROL</a>
+              <ul >
+                <li class="subm"{% if page.title == "Erosion Control Blankets" %}class="active"{% endif %}><a href="{{"/erosionControlBlankets/" | prepend: site.baseurl }}">EROSION CONTROL BLANKETS</a></li>
+                <li class="subm"{% if page.title == "Flexterra" %}class="active"{% endif %}><a href="{{"/flexterra/" | prepend: site.baseurl }}">FLEXTERRA</a></li>
+              </ul>
+      </li>
+  
+      <li {% if page.title == "Consultancy" %}class="active"{% endif %}>
+              <a href="{{"/consultancy/" | prepend: site.baseurl }}">CONSULTANCY</a>
+              <ul >
+                <li class="subm"{% if page.title == "Soil Analysis" %}class="active"{% endif %}><a href="{{"/soilAnalysis/" | prepend: site.baseurl }}">SOIL ANALYSIS</a></li>
+                <li class="subm"{% if page.title == "Managment Plans" %}class="active"{% endif %}><a href="{{"/managementPlans/" | prepend: site.baseurl }}">MANAGEMENT PLANS</a></li>
+              </ul>
+      </li>
+  
+      <li {% if page.title == "Home" %}class="active"{% endif %}>
+              <a href="{{"/projects/" | prepend: site.baseurl }}">PROJECTS</a>
+              <ul >
+                <li class="subm"{% if page.title == "Recent Projects" %}class="active"{% endif %}><a href="{{"/recentProjects/" | prepend: site.baseurl }}">SOME OF OUR RECENT PROJECTS</a></li>
+                <li class="subm"{% if page.title == "LNG Projects, Curtis Island" %}class="active"{% endif %}><a href="{{"/lngProjects/" | prepend: site.baseurl }}">LNG PROJECTS, CURTIS ISLAND</a></li>
+                <li class="subm"{% if page.title == "Wiggins Island" %}class="active"{% endif %}><a href="{{"/wigginsIsland/" | prepend: site.baseurl }}">WIGGINS ISLAND COAL EXPORT TERMINAL (WICET)</a></li>
+                <li class="subm"{% if page.title == "Blackwater Creek Diversion" %}class="active"{% endif %}><a href="{{"/blackwaterCreek/" | prepend: site.baseurl }}">BLACKWATER CREEK DIVERSION</a></li>
+                <li class="subm"{% if page.title == "Fishermans Landing Bunds" %}class="active"{% endif %}><a href="{{"/fishermansLanding/" | prepend: site.baseurl }}">FISHERMANS LANDING BUNDS</a></li>
+                <li class="subm"{% if page.title == "Grove Red Mud Ponds" %}class="active"{% endif %}><a href="{{"/redMudPonds/" | prepend: site.baseurl }}">GROVE RED MUD PONDS</a></li>
+                <li class="subm"{% if page.title == "Our Clients" %}class="active"{% endif %}><a href="{{"/ourClients/" | prepend: site.baseurl }}">OUR CLIENTS</a></li>
+              </ul>
+      </li>
+
+      <li {% if page.title == "Locations" %}class="active"{% endif %}><a href="{{"/locations/" | prepend: site.baseurl }}">LOCATIONS</a></li>
+</ul>
+</div>

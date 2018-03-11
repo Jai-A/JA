@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+
+<body>
+    <div id="conWhite">
+        {% include contactBar.html %}
+    </div>
+    <div class="navigation">
+        {% include nav.html %}
+    </div>
+    <img src="../assets/img/banner-inner.jpg" id="mainBanner">
+    <div class="container" id="conWhite">
+
+        {{ content }}
+    </div>
+
+    <div class="container">
+        {% include footer.html %}
+    </div>
+
+    {% include js.html %}
+
+</body>
+
+</html>
