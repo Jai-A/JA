@@ -288,6 +288,16 @@ ul.slimmenu>li:first-child, ul.slimmenu>li.has-submenu+li {
 /*	################################################################
 	LANYONSCAPES CUSTOM CSS
 ################################################################# */
+.bottom-tag {
+color: #0c00ff;
+@media (min-width: 1200px)
+.container {
+    width: 1170px;
+}
+
+}
+
+
 .center {
     display: block;
     margin-left: auto;
@@ -300,10 +310,6 @@ ul.slimmenu>li:first-child, ul.slimmenu>li.has-submenu+li {
 }
 
 .bottom {
-	background: url(../../assets/img/bottom-tag.jpg) 50% 20px no-repeat;
-	background-size: 100%;
-    min-width: 990px;
-    padding: 180px 0 10px 0;
 }
 
 .container {
@@ -315,23 +321,34 @@ ul.slimmenu>li:first-child, ul.slimmenu>li.has-submenu+li {
 	display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
 }
 
 @media (min-width: 768px) {
 	#mainBanner {
-	  width: 750px;
+	  width: 1170px;
 	}
+
+	.bottom-tag {
+		width: 1170px;
+	  }
   }
   @media (min-width: 992px) {
 	#mainBanner {
-	  width: 970px;
+	  width: 1170px;
 	}
+
+	.bottom-tag {
+		width: 1170px;
+	  }
   }
   @media (min-width: 1200px) {
 	#mainBanner {
 	  width: 1170px;
 	}
+
+	.bottom-tag {
+		width: 1170px;
+	  }
   }
 
 #conWhite {
