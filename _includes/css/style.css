@@ -21,7 +21,21 @@
 		padding: 0px;
 	} 
 
+		ul.slimmenu {
+			width: 80%;
+			margin-left: 10%;
+			margin-right: 10%;
+			}
 
+	@media screen and (max-width: 994px) {
+		ul.slimmenu {
+			width: 90%;
+			margin-left: 5%;
+			margin-right: 5%;
+			}
+	}
+	
+	
 		
 body { 
 	margin: 0;
@@ -97,21 +111,6 @@ a:focus {
 /*	################################################################
 	LANYONSCAPES NAV CSS
 ################################################################# */
-.nav {
-	text-align: center;
-	margin:0 auto;
-	list-style:none;
-	}
-.nav li {
-	float:left;
-	}
-.nav a {
-	display:block;
-	text-align:center;
-	min-width: 100px;
-	max-width: 2500px;
-	text-decoration:none; 
-	}
 
 .containerFooter {
 	padding: 20px;
@@ -179,10 +178,7 @@ li.subm {
     background-color: #97ba3b;
     border-radius: 1px;
 }
-ul.slimmenu {
-max-width: 2000px;
-	
-}
+
 ul.slimmenu:before, ul.slimmenu:after {
     content: '';
     display: table;
@@ -213,7 +209,6 @@ ul.slimmenu.collapsed li .sub-toggle {
 }
 ul.slimmenu li {
     position: relative;
-    float: left;
     display: inline-block;
     background-color: #97ba3b;
 }
@@ -230,29 +225,31 @@ ul.slimmenu li>ul {
     top: 100%;
     z-index: 999;
     display: none;
-    width: 100%}
+	width: 100%
+}
+
 ul.slimmenu li>ul>li ul {
     position: absolute;
     left: 100%;
     top: 0;
     z-index: 300;
     display: none;
-    width: 100%}
+	width: 100%
+}
+
 ul.slimmenu li a {
     display: block;
-    padding: 12px 64px 12px 16px;
+    padding: 12px 48px 12px 16px;
     color: rgb(255, 255, 255);
     font-size: 16px;
     font-weight: 400;
-    transition: background-color 0.5s ease-out;
-    -o-transition: background-color 0.5s ease-out;
-    -moz-transition: background-color 0.5s ease-out;
-    -webkit-transition: background-color 0.5s ease-out;
 }
+
 ul.slimmenu li a:hover {
     text-decoration: none;
     background-color: #97ba3b;
 }
+
 ul.slimmenu li .sub-toggle {
     position: absolute;
     right: 0;
@@ -345,9 +342,9 @@ color: #0c00ff;
 		width: 1170px;
 	  }
 	
-	  .imgTile {
+	.imgTile {
 		width: 100vw;
-	}
+	  }
   }
   @media (min-width: 1200px) {
 	#mainBanner {
