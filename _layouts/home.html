@@ -8,17 +8,22 @@
     </div>
 
     <div class="navigation">
+        <div class="navCon">
             {% include nav.html %}
+        </div>
     </div>
+
     {% include mainBanner.html %}
-    
+
 
     <div class="container" id="conWhite">
         {{ content }}
     </div>
+
     <div class="container">
         {% include footer.html %}
     </div>
+
     {% include js.html %}
 
 </body>
