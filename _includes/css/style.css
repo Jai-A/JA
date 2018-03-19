@@ -272,7 +272,7 @@ ul.slimmenu>li:first-child, ul.slimmenu>li.has-submenu+li {
 
 @media (min-width: 200px) {
 	iframe {
-		width: 400px;
+		width: 300px;
 		height: 400px;
 	}
   }
