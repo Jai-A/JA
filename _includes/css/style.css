@@ -272,17 +272,19 @@ ul.slimmenu>li:first-child, ul.slimmenu>li.has-submenu+li {
 
 @media (min-width: 200px) {
 	iframe {
-		width: 300px;
+		width: 400px;
+		height: 400px;
 	}
   }
   @media (min-width: 992px) {
 	iframe {
-		width: 600px;
+		width: 700px;
+		height: 700px;
 	}
   }
   @media (min-width: 1200px) {
 	iframe{
-		width: 910px;
+		width: 1000px;
 	}
   }
 
