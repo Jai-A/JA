@@ -116,4 +116,5 @@ testimonial:
     author: Marcel Newman
     position: WEB DESIGNER - BLACKTIE.CO
 
-include: ./_redirects
+include: 
+    - _redirects
